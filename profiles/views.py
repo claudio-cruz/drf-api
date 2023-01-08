@@ -28,7 +28,6 @@ class ProfileList(generics.ListAPIView):
     ]
 
 
-
 class ProfileDetail(generics.RetrieveDestroyAPIView):
     """
     Retrieve or update a profile if you're the owner.
