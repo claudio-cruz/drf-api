@@ -137,7 +137,7 @@ TEMPLATES = [
                 'django.contrib.messages.context_processors.messages',
             ],
         },
-    },database
+    }
 ]
 
 WSGI_APPLICATION = 'drf_api.wsgi.application'
